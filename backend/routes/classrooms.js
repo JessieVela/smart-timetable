@@ -1,5 +1,6 @@
 import express from 'express';
 const router = express.Router();
+import missing from '../middleware/missing.js';
 import Classroom from '../models/Classroom.js';
 
 // Create Classroom
